@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ultimate Store</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="loginbutton">Inciar Sesión</string>
+    <string name="regis">Registrarse</string>
+    <string name="rut">Rut</string>
+    <string name="nameregis">Nombre</string>
+    <string name="categoria">Elija un Categoria</string>
+    <string name="adulto">Adultos</string>
+    <string name="ninos">Niños</string>
+    <string name="catninos">Categoria Niños</string>
+    <string name="catadultos">Categoria Adultos</string>
+</resources>

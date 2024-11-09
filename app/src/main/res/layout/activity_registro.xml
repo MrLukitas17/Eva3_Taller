@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registro"
+    >
+
+    <ImageView
+        android:id="@+id/logoresgis"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:background="@color/fondo1"
+        app:srcCompat="@drawable/logo1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="80dp"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/nombreregis"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/nameregis"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/correoresgis"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/rut"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/usuarioregis"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/user"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/passregis"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/pass"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btninicioregis"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="@string/loginbutton"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/fondo2"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btncuentaexistente"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Ya tengo una Cuenta!!!"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/fondo2"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

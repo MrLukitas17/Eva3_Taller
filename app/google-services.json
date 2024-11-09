@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "964835190825",
+    "firebase_url": "https://basededatostaller-93911-default-rtdb.firebaseio.com",
+    "project_id": "basededatostaller-93911",
+    "storage_bucket": "basededatostaller-93911.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964835190825:android:8b80850d66a621925bd438",
+        "android_client_info": {
+          "package_name": "com.example.eva2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAukuJtDs1338J4gm162WNIWikEZqs6RyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964835190825:android:d32105229129937b5bd438",
+        "android_client_info": {
+          "package_name": "com.example.eva3_taller"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAukuJtDs1338J4gm162WNIWikEZqs6RyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
